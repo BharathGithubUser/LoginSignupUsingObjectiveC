@@ -15,6 +15,7 @@
 		CEF867032052B75D0038724D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF867022052B75D0038724D /* main.m */; };
 		CEF8670D2052B75D0038724D /* LoginScreenTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF8670C2052B75D0038724D /* LoginScreenTaskTests.m */; };
 		CEF867182052B75D0038724D /* LoginScreenTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF867172052B75D0038724D /* LoginScreenTaskUITests.m */; };
+		CEFD7A3120565D6900A6BD26 /* WelcomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD7A3020565D6900A6BD26 /* WelcomeScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CEF867132052B75D0038724D /* LoginScreenTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginScreenTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF867172052B75D0038724D /* LoginScreenTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginScreenTaskUITests.m; sourceTree = "<group>"; };
 		CEF867192052B75D0038724D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD7A2F20565D6900A6BD26 /* WelcomeScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeScreen.h; sourceTree = "<group>"; };
+		CEFD7A3020565D6900A6BD26 /* WelcomeScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CEF866F42052B75C0038724D /* AppDelegate.m */,
 				CEF866F62052B75C0038724D /* ViewController.h */,
 				CEF866F72052B75D0038724D /* ViewController.m */,
+				CEFD7A2F20565D6900A6BD26 /* WelcomeScreen.h */,
+				CEFD7A3020565D6900A6BD26 /* WelcomeScreen.m */,
 				CEF866F92052B75D0038724D /* Main.storyboard */,
 				CEF866FC2052B75D0038724D /* Assets.xcassets */,
 				CEF866FE2052B75D0038724D /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				CEF866F82052B75D0038724D /* ViewController.m in Sources */,
 				CEF867032052B75D0038724D /* main.m in Sources */,
+				CEFD7A3120565D6900A6BD26 /* WelcomeScreen.m in Sources */,
 				CEF866F52052B75C0038724D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
